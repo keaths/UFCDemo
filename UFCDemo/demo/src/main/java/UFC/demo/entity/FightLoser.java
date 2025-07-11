@@ -14,62 +14,61 @@ public class FightLoser {
 //    private Long id;
 //
 //    @Column(name = "knockdowns")
-//    private Long knockdowns;
-//
+//    private int knockdowns;
 //    @Column(name = "fighter_id")
 //    private Fighter fighter;
 //
 //    @Column(name = "significant_strikes_landed")
-//    private Long significant_strikes_landed;
+//    private int significantStrikesLanded;
 //
 //    @Column(name = "significant_strikes_attempted")
-//    private Long significantStrikeAttempt;
+//    private int significantStrikeAttempt;
 //
 //    @Column(name = "total_strikes_landed")
-//    private Long totalStrikesLanded;
+//    private int totalStrikesLanded;
 //
 //    @Column(name = "total_strikes_attempted")
-//    private Long totalStrikesAttempt;
+//    private int totalStrikesAttempt;
 //
 //    @Column(name = "total_takedown_landed")
-//    private Long totalTakedownLanded;
+//    private int totalTakedownLanded;
 //
 //    @Column(name = "total_takedown_attempted")
-//    private Long totalTakedownAttempt;
+//    private int totalTakedownAttempt;
 //
 //    @Column(name = "sub_attempt")
-//    private Long subAttempt;
+//    private int subAttempt;
 //
 //    @Column(name = "control_time")
 //    private String controlTime;
 //
 //    @Column(name = "head_strike_landed")
-//    private Long headStrikeLanded;
+//    private int headStrikeLanded;
 //
 //    @Column(name = "head_strike_attempt")
-//    private Long headStrikeAttempt;
+//    private int headStrikeAttempt;
 //
 //    @Column(name = "body_strike_landed")
-//    private Long bodyStrikeLanded;
+//    private int bodyStrikeLanded;
 //
 //    @Column(name = "body_strike_attempt")
-//    private Long bodyStrikeAttempt;
+//    private int bodyStrikeAttempt;
 //
 //    @Column(name = "leg_strike_land")
-//    private Long legStrikeLanded;
+//    private int legStrikeLanded;
 //
 //    @Column(name = "leg_strike_attempt")
-//    private Long legStrikeAttempt;
+//    private int legStrikeAttempt;
 //
 //    @Column(name = "distance_strike_land")
-//    private Long distanceStrikeLanded;
+//    private int distanceStrikeLanded;
 //
 //    @Column(name = "distance_strike_attempt")
-//    private Long distanceStrikeAttempt;
+//    private int distanceStrikeAttempt;
 //
 //    @Column(name = "clinch_strike_land")
-//    private Long clinchStrikeLanded;
+//    private int clinchStrikeLanded;
 //
 //    @Column(name = "clinch_strike_attempt")
-//    private Long clinchStrikeAttempt;
+//    private int clinchStrikeAttempt;
 }

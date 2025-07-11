@@ -27,4 +27,9 @@ public class FighterController {
         return fighterService.getAllFighters();
     }
 
+    @GetMapping("/test/getSingle")
+    public Fighter getFighter(@RequestHeader String firstName, @RequestHeader String lastName){
+        return fighterService.findByFirstAndLastName(firstName, lastName);
+    }
+
 }
