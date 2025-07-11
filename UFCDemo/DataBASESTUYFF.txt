@@ -1,0 +1,5 @@
+db: ufcMS
+user: admin
+pass: Ksawdo99!
+port: 3307
+dbURL: ufcms.cq1kqqkm2ff0.us-east-1.rds.amazonaws.com
