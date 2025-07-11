@@ -15,7 +15,9 @@ public class FightWinner {
 
     @Column(name = "knockdowns")
     private int knockdowns;
-    @Column(name = "fighter_id")
+
+    @OneToOne
+    @JoinColumn(name = "fighter_id", referencedColumnName = "id")
     private Fighter fighter;
 
     @Column(name = "significant_strikes_landed")
